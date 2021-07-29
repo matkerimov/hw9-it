@@ -1,0 +1,502 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.hero {
+    background: #0005 url("../images/Rectangle.png") no-repeat center/cover;
+    height: 900px;
+    background-blend-mode: darken;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    margin: 319px 0 350px;
+    text-align: center;
+}
+
+.hero-title {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+
+}
+
+.hero-info {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.hero-btn {
+    background: #4985FF;
+    box-shadow: 0 0 10px rgba(111, 111, 111, 0.25 );
+    border-radius: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    transition: .6s;
+    padding: 15px 36px;
+}
+
+.hero-btn:hover {
+    background: #fff5;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+
+}
+
+.logo {
+    color: #fff5;
+    font-size: 30px;
+}
+
+.menu-item {
+    margin-left: 40px;
+    color: #fff9;
+}
+
+.section {
+    padding: 110px 0;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    margin: 0 -10px;
+    flex-wrap: wrap;
+}
+
+.col-4 {
+    width: 33.3333%;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.section-info {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    color: #323232;
+    margin-bottom: 50px;
+}
+
+.section-desc {
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #999999;
+    margin-bottom: 70px;
+}
+
+.section-col{
+    display: flex;
+
+}
+.box {
+    margin-right: 52px;
+    position: relative;
+}
+.box:before{
+    position: absolute;
+    content: '';
+    width: 90px;
+    height: 90px;
+    border-radius: 50vh;
+    border: 1px solid #4985FF;
+    top: -17px;
+    left: -13px;
+}
+.box:after{
+    position: absolute;
+    content: '';
+    width: 110px;
+    height: 110px;
+    border-radius: 50vh;
+    border: 1px solid #E0E0E0;
+    top: -27px;
+    left: -23px;
+
+}
+.box-info{
+    margin-top: 11px;
+}
+.box-title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    margin: 0 65px 12px 0;
+}
+.box-desk{
+    font-size: 14px;
+    line-height: 22px;
+    color: #999999;
+    width: 222px;
+}
+.second-btn {
+    text-align: center;
+}
+
+.btn {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #4985FF;
+    border-radius: 30px;
+    transition: .6s;
+    margin-top: 55px ;
+}
+
+.btn:hover {
+    background: rgba(197, 197, 197, 0.12);
+    color: #000000;
+}
+.services{
+    background: #F6F6F8;
+
+}
+.col-6 {
+    width: 50%;
+}
+.services {
+    padding: 100px 0 70px;
+}
+.services-title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 53px;
+    color: #323232;
+    margin-top: 52px;
+}
+
+.services-desc {
+    font-size: 16px;
+    line-height: 25px;
+    color: #999999;
+    margin: 40px 120px 30px 0;
+}
+.services-line{
+    border: 1px solid #E0E0E0;
+    width: 1110px;
+    margin: 90px 0 70px;
+}
+.lower-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #4985FF;
+    bottom: 140px;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.works {
+    padding: 100px 0;
+    background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;
+}
+
+.works-title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 53px;
+    color: #FFFFFF;
+}
+
+.btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    background: #4985FF;
+    box-shadow: 0 0 10px rgba(111, 111, 111, 0.25);;
+    border-radius: 30px;
+    display: inline-block;
+    width: 200px;
+    padding: 14px 0;
+}
+
+.works-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.works-content-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 30px 0;
+}
+
+.works-content-title span {
+    color: #4985FF;
+}
+
+.works-content-desck {
+    line-height: 25px;
+    color: #999999;
+    margin-bottom: 30px;
+}
+
+.works-content-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #4985FF;
+}
+
+/*####*/
+.projects {
+    background: #F6F6F8;
+}
+
+.project-title {
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 50px;
+}
+
+.project-desc {
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #999999;
+    margin-bottom: 70px;
+}
+
+.project-img {
+
+}
+
+/*###*/
+.video {
+    text-align: center;
+    height: 570px;
+    background: url("../images/Rectangle (1).png");
+    position: relative;
+}
+
+.video-title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    padding-top: 85px;
+    color: #FFFFFF;
+
+}
+
+.video-desck {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #999999;
+}
+
+.video-box {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: -70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 970px;
+    height: 430px;
+    background: url("../images/Rectangle 2 (3).png");
+}
+
+.video-play {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    line-height: 25px;
+    color: #FFFFFF;
+    border: 1px solid #fff;
+    border-radius: 200px;
+    padding: 20px 40px;
+    justify-content: center;
+}
+
+.video-play svg {
+    margin-right: 21px;
+}
+
+.subscrible {
+    margin: 175px 0 100px 0;
+}
+
+.subscrible-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+.subscribe-desk {
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #999999;
+    margin: 10px 0 20px 0;
+}
+
+.subscrible-email {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+
+.subscrible-email input {
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px;
+    height: 45px;
+    width: 300px;
+    padding-left: 33px;
+}
+
+.subscrible-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #4985FF;
+    box-shadow: 0 0 10px rgba(111, 111, 111, 0.25);
+    border-radius: 0 30px 30px 0;
+    border: none;
+    height: 45px;
+    width: 190px;
+}
+
+.subscrible-subtitle {
+    font-size: 13px;
+    line-height: 21px;
+    text-align: center;
+    color: #999999;
+}
+
+.footer {
+    position: relative;
+    background: #F6F6F8;
+    height: 200px;
+
+
+}
+
+.container {
+}
+
+.links {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    margin: 30px 43px 35px;
+}
+
+.menu-links-first {
+    position: absolute;
+    list-style: none;
+    top: 90px;
+    left: 74px;
+}
+
+.menu-links-second {
+    position: absolute;
+    list-style: none;
+    top: 90px;
+    left: 390px;
+}
+
+.menu-links-third {
+    position: absolute;
+    list-style: none;
+    top: 90px;
+    left: 660px;
+}
+
+.menu-links-fourth {
+    position: absolute;
+    list-style: none;
+    top: 90px;
+    left: 960px;
+
+}
+
+.menu-links-item {
+    font-size: 14px;
+    line-height: 22px;
+    color: #999999;
+
+}
+
+
+
+
+
+
