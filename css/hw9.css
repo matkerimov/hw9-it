@@ -268,14 +268,25 @@ a {
 
 .works {
     padding: 100px 0;
-    background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;
+    height: 887px;
+    background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%) 50%, #C4C4C4 50%;
 }
+/*.works:before{*/
+/*    content: "";*/
+/*    width: 1110px;*/
+/*    border: 1px solid #E0E0E0;*/
+/*    bottom: 0;*/
+/*    left: 0;*/
+/*    right: 0;*/
+
+/*}*/
 
 .works-title {
     font-weight: bold;
     font-size: 36px;
     line-height: 53px;
     color: #FFFFFF;
+    margin-bottom: 70px;
 }
 
 .btn {
@@ -289,6 +300,7 @@ a {
     display: inline-block;
     width: 200px;
     padding: 14px 0;
+    margin-bottom: 93px;
 }
 
 .works-box {
