@@ -72,6 +72,8 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid #A1A1A1;
+    z-index: -1;
 }
 
 .menu li {
@@ -99,7 +101,26 @@ a {
 .menu-item {
     margin-left: 40px;
     color: #fff9;
+    position: relative;
 }
+.menu-item:before:hover{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    margin: 0 auto;
+    border-bottom: 2px solid #FFFFFF;
+
+}
+/*.menu-item:hover{*/
+/*    !*position: absolute;*!*/
+/*    !*bottom: 0;*!*/
+/*    !*top: 0;*!*/
+/*    !*margin: 0 auto;*!*/
+/*    !*margin-top: 40px;*!*/
+/*    !*transition: inherit;*!*/
+/*    !*border-bottom: 2px solid #FFFFFF;*!*/
+/*}*/
 
 .section {
     padding: 110px 0;
