@@ -268,8 +268,7 @@ a {
 
 .works {
     padding: 100px 0;
-    height: 887px;
-    background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%) 50%, #C4C4C4 50%;
+    background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%) , #C4C4C4 ;
 }
 /*.works:before{*/
 /*    content: "";*/
@@ -333,10 +332,15 @@ a {
     text-decoration-line: underline;
     color: #4985FF;
 }
-
+.works-line{
+    width: 1110px;
+   border: 1px solid #E0E0E0;
+    margin-top: 83px;
+}
 /*####*/
 .projects {
     background: #F6F6F8;
+    padding-top: 100px;
 }
 
 .project-title {
@@ -474,6 +478,7 @@ a {
 }
 
 .footer {
+    padding: 100px;
     position: relative;
     background: #F6F6F8;
     height: 200px;
@@ -496,29 +501,28 @@ a {
     position: absolute;
     list-style: none;
     top: 90px;
-    left: 74px;
+    left: 227px;
 }
 
 .menu-links-second {
     position: absolute;
     list-style: none;
     top: 90px;
-    left: 390px;
+    left: 508px;
 }
 
 .menu-links-third {
     position: absolute;
     list-style: none;
     top: 90px;
-    left: 660px;
+    left: 792px;
 }
 
 .menu-links-fourth {
     position: absolute;
     list-style: none;
     top: 90px;
-    left: 960px;
-
+    left: 1073px;
 }
 
 .menu-links-item {
